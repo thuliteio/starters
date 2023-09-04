@@ -33,7 +33,7 @@ noticeText = 'Hyas 2.1 is here!' # E.g. 'Hyas 2.1 is here!'
 noticeLink = '/blog/hyas-2.1/' # E.g. '/blog/hyas-2.1/'
 
 # Plausible Analytics
-plausibleAnalyticsDomain = "gethyas.com" # "example.com" (default)
+plausibleAnalyticsDomain = "start.gethyas.com" # "example.com" (default)
 
 # Bootstrap
 bootstrapJavascript = true # false (default) or true
