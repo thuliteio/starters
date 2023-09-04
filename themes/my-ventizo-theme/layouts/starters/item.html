@@ -1,8 +1,8 @@
-<div class="card rounded-0">
+<div class="card rounded-0 p-0">
   {{ $image := .Resources.GetMatch (printf "**%s" (index .Params.images 0)) | default "assets/images/default.png" -}}
 
   {{ if $image -}}
-    {{ partial "img"  (dict
+    {{ partial "picture"  (dict
     "ctx" .
     "src" $image
     "alt" .Title
@@ -18,7 +18,7 @@
   {{ $sandBoxURL := printf "%s%s" "https://codesandbox.io/p/sandbox/github" $repo }}
   {{ $stackBlitzURL := printf "%s%s" "https://stackblitz.com/github" $repo }}
 
-  <div class="card-body">
+  <div class="card-body p-4">
     <h3 class="card-title fs-3 text-white">{{.Title}}</h3>
     <p class="card-text">
       <a class="link-repo" href="{{ $repoURL }}">

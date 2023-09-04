@@ -2,7 +2,7 @@
 image:
   ## General
   type: page # page (default) or global
-  widths: [480, 640, 768, 1024, 1366] # [600, 900, 1300] (default)
+  widths: [480, 720] # [600, 900, 1300] (default)
   densities: [1,2] # [1,2] (default)
   formats: [original, webp] # [original, webp] (default)
   provider: null # null (default) or netlify
