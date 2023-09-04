@@ -1,0 +1,41 @@
+{
+  "name": "hyas-starters",
+  "version": "1.0.0",
+  "description": "Hyas starters",
+  "author": "Ventizo",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gethyas/gethyas.com.git"
+  },
+  "scripts": {
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --port=3000",
+    "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --buildDrafts --port=3000",
+    "create": "exec-bin node_modules/.bin/hugo/hugo new",
+    "lint": "pnpm lint:scripts && pnpm lint:styles && pnpm lint:markdown",
+    "lint:scripts": "eslint --cache themes/my-ventizo-theme/assets/js",
+    "lint:styles": "stylelint --cache \"themes/my-ventizo-theme/assets/scss/**/*.{css,sass,scss}\"",
+    "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
+    "test": "pnpm lint",
+    "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
+    "preview": "http-server --gzip --brotli --ext=html --cors",
+    "clean": "pnpm clean:build && pnpm clean:lint && pnpm clean:install",
+    "clean:build": "shx rm -rf public resources .hugo_build.lock",
+    "clean:install": "shx rm -rf node_modules package-lock.json yarn.lock pnpm-lock.yaml",
+    "clean:lint": "shx rm -rf .eslintcache .stylelintcache",
+    "preinfo": "pnpm version && pnpm -v",
+    "info": "pnpm list",
+    "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
+    "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "devDependencies": {
+    "@ventizo/starter-core": "^1.0.1",
+    "auto-changelog": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=16.12.0",
+    "pnpm": ">=8.6.2"
+  },
+  "packageManager": "pnpm@8.6.5"
+}

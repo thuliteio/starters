@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="section noise-container border-bottom22">
+  <div class="noise"></div>
+  <div class="bg-grid position-absolute inset-0 z-n1"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-9 col-lg-7 text-center">
+        <h1 class="display-2 fw-normal">
+          {{ .Title }}
+        </h1>
+      </div>
+      <div class="w-100"></div>
+      <div class="col-9 col-lg-5 text-center">
+        <p class="lead">
+          {{ .Summary }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section noise-container py-0">
+  <div class="noise"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-11">
+        <div class="sidebar-section">
+          {{ partial "main/taxonomy-navigation" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="noise-container">
+  <div class="noise"></div>
+  <div class="container-fluid">
+    <div class="row row-showcase justify-content-center py-5">
+      <div class="col-main-section">
+        <div class="row row-flex">
+          {{ range (where .Site.RegularPages.ByTitle "Section" "starters" ) }}
+            <div class="col-md-4">
+            {{ .Render "item" }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

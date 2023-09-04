@@ -1,0 +1,81 @@
+[[mounts]]
+  source = "config/_default/hyas"
+  target = "data"
+
+[[mounts]]
+  source = "node_modules/@hyas/core/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "node_modules/@hyas/core/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "node_modules/gethyas/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "node_modules/@hyas/seo/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "node_modules/@hyas/images/assets"
+  target = "assets"
+  excludeFiles = "/scss/**.scss"
+
+[[mounts]]
+  source = "node_modules/@hyas/images/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "node_modules/@tabler/icons/icons"
+  target = "assets/svgs/tabler-icons"
+
+[[mounts]]
+  source = "assets/svgs"
+  target = "assets/svgs"
+
+[[mounts]]
+  source = "node_modules/@hyas/inline-svg/layouts"
+  target = "layouts"
+
+# [[mounts]]
+#   source = "node_modules/@ventizo/starter-core/archetypes"
+#   target = "archetypes"
+
+[[mounts]]
+  source = "node_modules/@ventizo/starter-core/assets"
+  target = "assets"
+  excludeFiles = "/scss/**.scss"
+
+[[mounts]]
+  source = "node_modules/@ventizo/starter-core/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "themes/my-ventizo-theme/archetypes"
+  target = "archetypes"
+
+[[mounts]]
+  source = "themes/my-ventizo-theme/assets"
+  target = "assets"
+
+[[mounts]]
+  source = "themes/my-ventizo-theme/layouts"
+  target = "layouts"
+
+[[mounts]]
+  source = "archetypes"
+  target = "archetypes"
+
+[[mounts]]
+  source = "assets"
+  target = "assets"
+
+[[mounts]]
+  source = "data"
+  target = "data"
+
+[[mounts]]
+  source = "layouts"
+  target = "layouts"
