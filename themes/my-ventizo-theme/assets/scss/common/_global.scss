@@ -164,7 +164,9 @@ html[data-bs-theme="light"] {
 
 .sidebar-section a:not(.btn, .text-link) {
   font-size: 1.0625rem;
-  color: $link-color-dark;
+
+  // color: $link-color-dark;
+  color: var(--sl-color-gray-2);
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.25rem;
