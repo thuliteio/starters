@@ -13,8 +13,8 @@
     "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --buildDrafts --port=3000",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
     "lint": "pnpm lint:scripts && pnpm lint:styles && pnpm lint:markdown",
-    "lint:scripts": "eslint --cache themes/my-ventizo-theme/assets/js",
-    "lint:styles": "stylelint --cache \"themes/my-ventizo-theme/assets/scss/**/*.{css,sass,scss}\"",
+    "lint:scripts": "eslint --cache assets/js",
+    "lint:styles": "stylelint --cache \"assets/scss/**/*.{css,sass,scss}\"",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "test": "pnpm lint",
     "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
@@ -29,8 +29,10 @@
     "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
+  "dependencies": {
+    "@ventizo/starter-core": "^1.1.0"
+  },
   "devDependencies": {
-    "@ventizo/starter-core": "^1.0.1",
     "auto-changelog": "^2.4.0"
   },
   "engines": {

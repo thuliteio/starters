@@ -5,5 +5,9 @@ summary: "Open any of these templates in your choice of online code editor, or v
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
-images: []
+seo:
+  title: "Hyas — It's go time with Hyas" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
 ---
