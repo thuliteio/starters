@@ -5,5 +5,4 @@ summary: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-images: []
 ---
