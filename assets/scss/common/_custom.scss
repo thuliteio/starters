@@ -1,1 +1,121 @@
 // Put your custom SCSS code here
+
+body.home {
+  background: $body-bg-dark;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+}
+
+.sidebar-section a:not(.btn, .text-link) {
+  color: var(--sl-color-gray-2);
+}
+
+.sidebar-section a:hover {
+  color: var(--sl-color-gray-3);
+}
+
+@include media-breakpoint-up(xl) {
+  .col-main-section {
+    max-width: 80rem;
+  }
+}
+
+.text-features {
+  line-height: 1.1;
+  margin-bottom: 2rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 3rem;
+  }
+
+  span {
+    font-weight: 700;
+  }
+
+}
+
+.home,
+.list.term {
+  .card {
+    border-radius: 0;
+    padding: 0.5rem;
+  }
+
+  .card-title {
+    font-weight: 400;
+    font-size: 2rem !important;
+    line-height: 1.2;
+  }
+
+  .card-title.custom-title-width {
+    width: 80%;
+
+    @include media-breakpoint-up(lg) {
+      width: 75%;
+    }
+  }
+
+  .card-text {
+    margin-top: 0.75rem;
+  }
+
+  a.btn span {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+.card-footer {
+  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+  color: var(--bs-card-cap-color);
+  background-color: transparent;
+  border-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.btn-group {
+  a.dropdown-item:hover {
+    background: var(--sl-color-gray-1);
+  }
+
+  svg {
+    margin-bottom: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
+
+a.link-repo {
+  text-decoration: none;
+  color: var(--sl-color-gray-1);
+
+  svg {
+    margin-bottom: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
+
+a.link-repo:hover,
+a.link-repo:active {
+  color: var(--sl-color-gray-2);
+}
+
+
+h1.display-2 {
+  line-height: 1.1;
+}
+
+p.lead {
+  line-height: 1.625;
+}
+
+.actions {
+  margin-top: 2.5rem;
+}
+
+footer {
+  border-top: 0;
+}

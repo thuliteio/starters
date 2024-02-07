@@ -1,7 +1,20 @@
 # Hugo
 title = "Hyas"
-description = "Node.js web framework designed for speed and security. Build the website you want with integrations, and deploy everywhere, all powered by Hugo and npm."
+description = "Hyas is a web framework designed for speed, security, and SEO — all powered by Hugo and npm."
 images = ["cover.png"]
+
+# mainSections
+mainSections = ["blog", "legal"]
+
+[social]
+  twitter = "gethyas"
+
+# Add-ons
+[add_ons]
+  carbonAds = false # false (default) or true
+  docSearch = false # false (default) or true
+  plausibleDomain = "gethyas.com" # "example.com" (default)
+  keila = false # false (default) or true
 
 # Starter (@ventizo/starter-core)
 [starter]
@@ -41,9 +54,6 @@ images = ["cover.png"]
   noticeText = 'Hyas 2 is here!' # E.g. 'Hyas 2.1 is here!'
   noticeLink = '/blog/hyas-2/' # E.g. '/blog/hyas-2.1/'
 
-  # Plausible Analytics
-  plausibleAnalyticsDomain = "start.gethyas.com" # "example.com" (default)
-
   # Bootstrap
   bootstrapJavascript = true # false (default) or true
 
@@ -53,6 +63,9 @@ images = ["cover.png"]
   breadcrumbTrail = false # false (default) or true
   headlineHash = false # true (default) or false
   scrollSpy = true # true (default) or false
+
+  # Footer
+  footer = '© 2024 Hyas — <a href="https://github.com/gethyas/hyas/blob/master/LICENSE" target="_blank">MIT License</a>'
 
   # Multilingual
   multilingualMode = false # false (default) or true
@@ -73,9 +86,6 @@ images = ["cover.png"]
   relatedPosts = false # false (default) or true
   imageList = true # true (default) or false
   imageSingle = true # true (default) or false
-
-  # KaTex
-  katex = false
 
   # Repository
   editPage = false # false (default) or true
@@ -109,14 +119,14 @@ images = ["cover.png"]
 
 # Images (@hyas/images)
 [hyas_images]
-  [hyas_images.landscape]
-    normalize = "1600x900" # "1600x900" (default)
-    lqip = "16x9" # "16x9" (default)
-    widths = [480, 640, 800, 1024]
-  [hyas_images.portrait]
-    normalize = "900x1600" # "900x1600" (default)
-    lqip = "9x16" # "9x16" (default)
-    widths = [480, 640, 800, 1024]
+  [hyas_images.defaults]
+    decoding = "async" # sync, async, or auto (default)
+    fetchpriority = "auto" # high, low, or auto (default) 
+    loading = "lazy" # eager or lazy (default)
+    widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
+    sizes = "auto" # 100vw (default), 75vw, or auto for example
+    process = "" # "fill 1600x900" or "fill 2100x900" for example
+    lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
 
 # Inline SVG (@hyas/inline-svg)
 [inline_svg]

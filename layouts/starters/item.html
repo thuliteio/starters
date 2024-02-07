@@ -1,11 +1,16 @@
 <div class="card rounded-0 p-0">
   {{ $featured := partial "main/get-featured" . | default "images/default.png" }}
   {{ if $featured -}}
-    {{ partial "picture" (dict
-    "page" .
-    "src" $featured
-    "alt" .Title
-    "class" "card-img-top img-fluid blur-up w-100 h-auto rounded-0"
+    {{ partial "picture"  (dict
+      "page" .
+      "src" $featured
+      "process" "fill 1600x900"
+      "lqip" "16x webp q20"
+      "decoding" "async"
+      "fetchpriority" "auto"
+      "loading" "lazy"
+      "alt" .Title
+      "class" "card-img-top rounded-0"
     )}}
   {{ end -}}
 
