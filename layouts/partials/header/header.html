@@ -1,9 +1,10 @@
 {{ if site.Params.starter.navbarSticky -}}
 <div class="sticky-top">
 {{ end -}}
+{{- $hosturl := site.Params.hosturl -}}
 <header class="navbar navbar-expand-lg ps-lg-2 pe-lg-3">
   {{ with site.Params.starter.containerBreakpoint -}}<div class="container-{{ . }}">{{ else -}}<div class="container">{{ end -}}
-    <a class="navbar-brand ms-2 me-auto me-lg-3" href="{{ "/" | absURL }}">
+    <a class="navbar-brand ms-2 me-auto me-lg-3" href="{{ $hosturl }}">
       {{ partial "inline-svg" (dict "src" "svgs/hyas-logo-semibold-wide.svg" "width" "80px" "height" "100%" "class" "svg-inline-custom svg-monochrome") }}
     </a>
     <div class="vr me-3 d-none d-lg-block"></div>
@@ -56,7 +57,7 @@
     </button>
     <div class="offcanvas offcanvas-{{ site.Params.starter.offCanvas | default "end" }} h-auto rounded" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <a class="navbar-brand" href="{{ "/" | absURL }}">
+        <a class="navbar-brand" href="{{ $hosturl }}">
           {{ partial "inline-svg" (dict "src" "svgs/hyas-logo-semibold-wide.svg" "width" "80px" "height" "100%" "class" "svg-inline-custom svg-monochrome") }}
           <h5 class="offcanvas-title fw-normal visually-hidden" id="offcanvasNavbarLabel">{{ site.Title }}</h5>
         </a>
