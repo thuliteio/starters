@@ -2,6 +2,7 @@
 title = "Hyas"
 description = "Hyas is a web framework designed for speed, security, and SEO — all powered by Hugo and npm."
 images = ["cover.png"]
+hosturl = "https://gethyas.com/new/"
 
 # mainSections
 mainSections = ["blog", "legal"]
