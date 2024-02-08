@@ -30,12 +30,113 @@
   autoLaunch = false
 
 # Redirects and rewrites — https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file
+## Gitpod
 [[redirects]]
   from = "/basics"
   to = "https://gitpod.io/#https://github.com/gethyas/basic-starter"
   status = 301
   force = true
   query = {on = "gitpod"}
+
+[[redirects]]
+  from = "/bolt"
+  to = "https://gitpod.io/#https://github.com/gethyas/bolt"
+  status = 301
+  force = true
+  query = {on = "gitpod"}
+
+[[redirects]]
+  from = "/bootstrap"
+  to = "https://gitpod.io/#https://github.com/gethyas/bootstrap-starter"
+  status = 301
+  force = true
+  query = {on = "gitpod"}
+
+[[redirects]]
+  from = "/doks"
+  to = "https://gitpod.io/#https://github.com/gethyas/doks"
+  status = 301
+  force = true
+  query = {on = "gitpod"}
+
+[[redirects]]
+  from = "/talwind-css"
+  to = "https://gitpod.io/#https://github.com/gethyas/tailwindcss-starter"
+  status = 301
+  force = true
+  query = {on = "gitpod"}
+
+## CodeSandbox
+[[redirects]]
+  from = "/basics"
+  to = "https://codesandbox.io/p/sandbox/github/gethyas/basic-starter"
+  status = 301
+  force = true
+  query = {on = "codesandbox"}
+
+[[redirects]]
+  from = "/bolt"
+  to = "https://codesandbox.io/p/sandbox/github/gethyas/bolt"
+  status = 301
+  force = true
+  query = {on = "codesandbox"}
+
+[[redirects]]
+  from = "/bootstrap"
+  to = "https://codesandbox.io/p/sandbox/github/gethyas/bootstrap-starter"
+  status = 301
+  force = true
+  query = {on = "codesandbox"}
+
+[[redirects]]
+  from = "/doks"
+  to = "https://codesandbox.io/p/sandbox/github/gethyas/doks"
+  status = 301
+  force = true
+  query = {on = "codesandbox"}
+
+[[redirects]]
+  from = "/talwind-css"
+  to = "https://codesandbox.io/p/sandbox/github/gethyas/tailwindcss-starter"
+  status = 301
+  force = true
+  query = {on = "codesandbox"}
+
+## StackBlitz
+[[redirects]]
+  from = "/basics"
+  to = "https://stackblitz.com/github/gethyas/basic-starter"
+  status = 301
+  force = true
+  query = {on = "stackblitz"}
+
+[[redirects]]
+  from = "/bolt"
+  to = "https://stackblitz.com/github/gethyas/bolt"
+  status = 301
+  force = true
+  query = {on = "stackblitz"}
+
+[[redirects]]
+  from = "/bootstrap"
+  to = "https://stackblitz.com/github/gethyas/bootstrap-starter"
+  status = 301
+  force = true
+  query = {on = "stackblitz"}
+
+[[redirects]]
+  from = "/doks"
+  to = "https://stackblitz.com/github/gethyas/doks"
+  status = 301
+  force = true
+  query = {on = "stackblitz"}
+
+[[redirects]]
+  from = "/talwind-css"
+  to = "https://stackblitz.com/github/gethyas/tailwindcss-starter"
+  status = 301
+  force = true
+  query = {on = "stackblitz"}
 
 # Custom headers — https://docs.netlify.com/routing/headers/#syntax-for-the-netlify-configuration-file
 [[headers]]
