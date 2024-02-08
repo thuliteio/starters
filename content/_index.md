@@ -8,6 +8,6 @@ draft: false
 seo:
   title: "Hyas — It's go time with Hyas" # custom title (optional)
   description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
+  canonical: "https://gethyas.com/new/" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---

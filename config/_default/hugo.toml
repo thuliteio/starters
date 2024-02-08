@@ -23,7 +23,7 @@ copyRight = "Copyright (c) 2010-2024 Ventizo"
   enable = true
 
 [outputs]
-  home = ["HTML", "RSS", "searchIndex"]
+  home = ["HTML"]
 
 [outputFormats.searchIndex]
   mediaType = "application/json"

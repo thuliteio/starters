@@ -1,7 +1,7 @@
 ---
-title: "Basic"
-description: "Basic"
-summary: "Basic"
+title: "Basics"
+description: "Basics"
+summary: "Basics"
 date: 2023-09-04T12:42:47+02:00
 lastmod: 2023-09-04T12:42:47+02:00
 draft: false
@@ -13,5 +13,5 @@ seo:
   title: "" # custom title (optional)
   description: "" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  noindex: true # false (default) or true
 ---
