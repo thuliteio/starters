@@ -13,7 +13,7 @@ mainSections = ["blog", "legal"]
 [add_ons]
   carbonAds = false # false (default) or true
   docSearch = false # false (default) or true
-  plausibleDomain = "gethyas.com" # "example.com" (default)
+  plausibleDomain = "new.gethyas.com" # "example.com" (default)
   keila = false # false (default) or true
 
 # Starter (@ventizo/starter-core)
