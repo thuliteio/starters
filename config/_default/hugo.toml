@@ -24,6 +24,8 @@ copyRight = "Copyright (c) 2010-2024 Ventizo"
 
 [outputs]
   home = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
 
 [outputFormats.searchIndex]
   mediaType = "application/json"
