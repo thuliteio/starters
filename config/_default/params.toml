@@ -1,5 +1,6 @@
 # Hugo
 title = "Hyas"
+subTitle = "Starters"
 description = "Hyas is a web framework designed for speed, security, and SEO — all powered by Hugo and npm."
 images = ["cover.png"]
 

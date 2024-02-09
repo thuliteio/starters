@@ -8,6 +8,11 @@ body.home {
   font-size: 1rem;
 }
 
+.vr {
+  height: 2.5rem;
+  align-self: center;
+}
+
 .sidebar-section a:not(.btn, .text-link) {
   color: var(--sl-color-gray-2);
 }
