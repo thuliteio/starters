@@ -5,7 +5,7 @@ summary: ""
 date: 2024-02-08T11:05:08+01:00
 lastmod: 2024-02-08T11:05:08+01:00
 draft: false
-_build:
+build:
   render: false
 seo:
   title: "" # custom title (optional)
