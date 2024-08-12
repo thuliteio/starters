@@ -12420,4 +12420,13 @@ p.lead {
 footer {
   border-top: 0; }
 
+.thulite-logo-semibold-wide {
+  width: 110px;
+  height: 100%; }
+
+@media (max-width: 991.98px) {
+  .thulite-logo-semibold-wide {
+    width: 100px;
+    height: 100%; } }
+
 /*# sourceMappingURL=main.css.map */

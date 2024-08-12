@@ -1,7 +1,7 @@
 # Hugo
-title = "Hyas"
+title = "Thulite"
 subTitle = "Starters"
-description = "Hyas is a web framework designed for speed, security, and SEO — all powered by Hugo and npm."
+description = "Thulite is a web framework designed for speed, security, and SEO — all powered by Hugo and npm."
 images = ["cover.png"]
 
 # mainSections
@@ -30,8 +30,8 @@ mainSections = ["blog", "legal"]
 
   ## Button
   navBarButton = true # false (default) or true
-  navBarButtonUrl = "https://gethyas.com/"
-  navBarButtonText = "Visit gethyas.com"
+  navBarButtonUrl = "https://thulite.io/"
+  navBarButtonText = "Visit thulite.io"
 
   # FlexSearch
   flexSearch = false # true (default) or false
@@ -48,11 +48,11 @@ mainSections = ["blog", "legal"]
   # Global alert
   alert = false # false (default) or true
   alertDismissable = true # true (default) or false
-  alertText = '<a class="alert-link stretched-link" href="/hyas-2.1/">Hyas version 2.1 just launched!</a>'
+  alertText = '<a class="alert-link stretched-link" href="/hyas-2.1/">Thulite version 2.1 just launched!</a>'
 
   # Global notice
   notice = false # false (default) or true
-  noticeText = 'Hyas 2 is here!' # E.g. 'Hyas 2.1 is here!'
+  noticeText = 'Thulite 2 is here!' # E.g. 'Thulite 2.1 is here!'
   noticeLink = '/blog/hyas-2/' # E.g. '/blog/hyas-2.1/'
 
   # Bootstrap
@@ -66,7 +66,7 @@ mainSections = ["blog", "legal"]
   scrollSpy = true # true (default) or false
 
   # Footer
-  footer = '© 2024 Hyas — <a href="https://github.com/gethyas/hyas/blob/master/LICENSE" target="_blank">MIT License</a>'
+  footer = '© 2024 Thulite — <a href="https://github.com/gethyas/hyas/blob/master/LICENSE" target="_blank">MIT License</a>'
 
   # Multilingual
   multilingualMode = false # false (default) or true
@@ -122,7 +122,7 @@ mainSections = ["blog", "legal"]
 [hyas_images]
   [hyas_images.defaults]
     decoding = "async" # sync, async, or auto (default)
-    fetchpriority = "auto" # high, low, or auto (default) 
+    fetchpriority = "auto" # high, low, or auto (default)
     loading = "lazy" # eager or lazy (default)
     widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
     sizes = "auto" # 100vw (default), 75vw, or auto for example
@@ -147,7 +147,7 @@ mainSections = ["blog", "legal"]
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
-    name = "Hyas" # Name of Organization or Person
+    name = "Thulite" # Name of Organization or Person
     sameAs = ["https://github.com/gethyas/hyas", "https://twitter.com/gethyas", "https://fosstodon.org/@hyas"] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
