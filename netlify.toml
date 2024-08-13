@@ -61,7 +61,7 @@
   query = {on = "gitpod"}
 
 [[redirects]]
-  from = "/talwind-css"
+  from = "/tailwind-css"
   to = "https://gitpod.io/#https://github.com/gethyas/tailwindcss-starter"
   status = 301
   force = true
@@ -97,7 +97,7 @@
   query = {on = "codesandbox"}
 
 [[redirects]]
-  from = "/talwind-css"
+  from = "/tailwind-css"
   to = "https://codesandbox.io/p/sandbox/github/gethyas/tailwindcss-starter"
   status = 301
   force = true
@@ -133,7 +133,7 @@
   query = {on = "stackblitz"}
 
 [[redirects]]
-  from = "/talwind-css"
+  from = "/tailwind-css"
   to = "https://stackblitz.com/github/gethyas/tailwindcss-starter"
   status = 301
   force = true
