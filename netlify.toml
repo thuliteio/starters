@@ -140,7 +140,7 @@
   query = {on = "stackblitz"}
 
 [[redirects]]
-  from = "https://new.thuliteio.com/*"
+  from = "https://new.gethyas.com/*"
   to = "https://new.thulite.io/:splat"
   status = 301
   force = true
