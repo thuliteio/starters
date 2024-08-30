@@ -8,7 +8,7 @@ images = ["cover.png"]
 mainSections = ["blog", "legal"]
 
 [social]
-  twitter = "gethyas"
+  twitter = "thuliteio"
 
 # Add-ons
 [add_ons]
@@ -48,12 +48,12 @@ mainSections = ["blog", "legal"]
   # Global alert
   alert = false # false (default) or true
   alertDismissable = true # true (default) or false
-  alertText = '<a class="alert-link stretched-link" href="/hyas-2.1/">Thulite version 2.1 just launched!</a>'
+  alertText = '<a class="alert-link stretched-link" href="/thulite-2.1/">Thulite version 2.1 just launched!</a>'
 
   # Global notice
   notice = false # false (default) or true
   noticeText = 'Thulite 2 is here!' # E.g. 'Thulite 2.1 is here!'
-  noticeLink = '/blog/hyas-2/' # E.g. '/blog/hyas-2.1/'
+  noticeLink = '/blog/thulite-2/' # E.g. '/blog/thulite-2.1/'
 
   # Bootstrap
   bootstrapJavascript = true # false (default) or true
@@ -66,7 +66,7 @@ mainSections = ["blog", "legal"]
   scrollSpy = true # true (default) or false
 
   # Footer
-  footer = '© 2024 Thulite — <a href="https://github.com/gethyas/hyas/blob/master/LICENSE" target="_blank">MIT License</a>'
+  footer = '© 2024 Thulite — <a href="https://github.com/thuliteio/thulite/blob/main/LICENSE" target="_blank">MIT License</a>'
 
   # Multilingual
   multilingualMode = false # false (default) or true
@@ -118,9 +118,9 @@ mainSections = ["blog", "legal"]
   errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
   highlightBroken = false # true or false (default)
 
-# Images (@hyas/images)
-[hyas_images]
-  [hyas_images.defaults]
+# Images (@thulite/images)
+[thulite_images]
+  [thulite_images.defaults]
     decoding = "async" # sync, async, or auto (default)
     fetchpriority = "auto" # high, low, or auto (default)
     loading = "lazy" # eager or lazy (default)
@@ -129,11 +129,11 @@ mainSections = ["blog", "legal"]
     process = "" # "fill 1600x900" or "fill 2100x900" for example
     lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
 
-# Inline SVG (@hyas/inline-svg)
+# Inline SVG (@thulite/inline-svg)
 [inline_svg]
   iconSetDir = "tabler-icons" # "tabler-icons" (default)
 
-# SEO (@hyas/seo)
+# SEO (@thulite/seo)
 [seo]
   [seo.title]
     separator = " — "
@@ -148,7 +148,7 @@ mainSections = ["blog", "legal"]
     type = "Organization" # Organization (default) or Person
     logo = "favicon-512x512.png" # Logo of Organization — favicon-512x512.png (default)
     name = "Thulite" # Name of Organization or Person
-    sameAs = ["https://github.com/gethyas/hyas", "https://twitter.com/gethyas", "https://fosstodon.org/@hyas"] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
+    sameAs = ["https://github.com/thuliteio/thulite", "https://x.com/thuliteio", "https://fosstodon.org/@thulite"] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections
     newsArticle = [] # NewsArticle sections

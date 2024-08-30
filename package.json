@@ -1,12 +1,12 @@
 {
-  "name": "hyas-starters",
+  "name": "thulite-starters",
   "version": "1.0.0",
-  "description": "Hyas starters",
-  "author": "Ventizo",
+  "description": "Thulite starters",
+  "author": "Thulite",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gethyas/starters.git"
+    "url": "https://github.com/thuliteio/starters.git"
   },
   "scripts": {
     "create": "hugo new",
@@ -16,18 +16,18 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@hyas/images": "^3.1.0",
-    "@hyas/inline-svg": "^1.0.5",
-    "@hyas/seo": "^2.1.0",
-    "@tabler/icons": "^2.46.0",
-    "@ventizo/starter-core": "^2.1.0",
-    "gethyas": "^2.2.2"
+    "@thulite/images": "^3.3.0",
+    "@thulite/inline-svg": "^1.2.0",
+    "@thulite/seo": "^2.4.0",
+    "@tabler/icons": "^3.12.0",
+    "@ventizo/starter-core": "^2.4.0",
+    "thulite": "^2.5.0"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.1",
-    "prettier": "^3.2.5",
-    "vite": "^5.2.11"
+    "@changesets/cli": "^2.27.7",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.2"
   },
   "engines": {
     "node": ">=20.11.0"
