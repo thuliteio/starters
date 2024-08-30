@@ -11580,7 +11580,7 @@ footer .nav-tertiary a:hover {
 	.navbar .nav-item:hover .dropdown-menu {
     display: block;
   }
-	
+
   .navbar .nav-item .dropdown-menu {
     margin-top: 0;
   }
@@ -11726,13 +11726,13 @@ footer .nav-tertiary a:hover {
   font-weight: 500;
   font-size: 1.5rem; }
 
-.hyas-logo-semibold-wide {
-  width: 80px;
+.thulite-logo-semibold-wide {
+  width: 110px;
   height: 100%; }
 
 @media (max-width: 991.98px) {
-  .hyas-logo-semibold-wide {
-    width: 70px;
+  .thulite-logo-semibold-wide {
+    width: 100px;
     height: 100%; } }
 
 .btn-link {

@@ -1,5 +1,5 @@
 ---
-"hyas-starters": minor
+"thulite-starters": minor
 ---
 
 Update for Thulite

@@ -172,7 +172,6 @@
       "text-md-end",
       "text-md-start",
       "text-white",
-      "thulite-logo-semibold-wide",
       "visually-hidden",
       "vr",
       "w-100",
@@ -181,7 +180,8 @@
     ],
     "ids": [
       "offcanvasNavbar",
-      "offcanvasNavbarLabel"
+      "offcanvasNavbarLabel",
+      "svg-thulite-logo-semibold-wide"
     ]
   }
 }
